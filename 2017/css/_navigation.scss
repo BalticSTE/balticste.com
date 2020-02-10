@@ -1,0 +1,172 @@
+nav {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+
+  width: 100%;
+  height: 100vw;
+
+  background: #e5e5e5;
+
+  overflow-y: auto;
+  z-index: 9;
+
+  @media (min-width: 20em) {
+    position: absolute;
+    left: 0;
+    height: auto;
+
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+
+    padding-right: 1rem;
+    padding-left: 1rem;
+    background: transparent;
+  }
+
+  @media (min-width: 48em) {
+    -webkit-justify-content: center;
+    justify-content: center;
+
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+}
+
+nav a,
+nav > div {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+
+  min-width: 100%;
+  height: 100%;
+
+  font-size: 1.5rem;
+  letter-spacing: 0.05rem;
+  font-weight: 400;
+  color: #333;
+
+  @media (min-width: 20em) {
+    position: relative;
+    display: inline-block;
+
+    padding-top: 1.5rem;
+    padding-bottom: 0.25rem;
+
+    min-width: auto;
+    min-width: initial;
+
+    font-size: 0.875rem;
+    line-height: 1;
+  }
+
+  @media (min-width: 38em) {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    margin-top: 1rem;
+    margin-right: 2.75rem;
+    font-size: 0.895rem;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+}
+
+nav > div {
+
+  &:after {
+    content: 'Swipe right';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+    font-size: 0.725rem;
+    color: lighten(grey, 20%);
+    line-height: 1;
+    letter-spacing: 0.45rem;
+    text-transform: uppercase;
+    text-align: center;
+    pointer-events: none;
+  }
+
+  @media (min-width: 20em) {
+    display: none;
+  }
+
+}
+
+.is-active:after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 50%;
+  height: 3px;
+  left: 50%;
+  margin: 5px 0 0 -25%;
+  background-color: #F6CA4D;
+
+  @media (min-width: 20em) {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 3px;
+    left: 0;
+    left: initial;
+    margin: 5px 0 0 0;
+    padding: 0 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

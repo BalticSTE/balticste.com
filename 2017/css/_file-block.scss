@@ -1,0 +1,90 @@
+.File {
+  position: relative;
+  display: block;
+
+  margin-top: 2rem;
+
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+
+  width: 100%;
+  background: #fafafa;
+  border-bottom: 4px solid #eaeaea;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+
+  &:hover,
+  &:focus {
+    background: darken(#fafafa, 1.5%);
+  }
+
+  &:hover img,
+  &:focus img {
+    opacity: 0.35;
+  }
+
+  &:before {
+    display: none!important;
+  }
+
+  @media (min-width: 38em) {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  @media (min-width: 58em) {
+    margin-top: 4.25rem;
+  }
+
+  img {
+    height: 2.6rem;
+    opacity: 0.2;
+
+    @media (min-width: 38em) {
+      height: 3rem;
+    }
+  }
+}
+
+  .File-title {
+    display: inline-block;
+    margin: 0;
+    padding-left: 1rem;
+
+    vertical-align: middle;
+
+    font-size: 0.95rem;
+    line-height: 1.35;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.015rem;
+    color: #333;
+
+    @media (min-width: 38em) {
+      font-size: 1rem;
+    }
+
+    span {
+      display: block;
+      font-size: 87.5%;
+      text-transform: none;
+      letter-spacing: 0.025rem;
+      color: #999999;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+

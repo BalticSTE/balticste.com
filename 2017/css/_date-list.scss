@@ -1,0 +1,79 @@
+.DateList {
+  list-style: none;
+  padding: 0;
+}
+
+  .DateList-item {
+    list-style: none;
+    display: block;
+    clear: both;
+    margin-top: 2rem;
+    padding: 0;
+
+    &:after {
+      content: '';
+      display: block;
+      clear: both;
+    }
+  }
+
+    .DateList-itemLeft {
+      display: block;
+      margin-right: 0.75rem;
+      width: 75px;
+      float: left;
+    }
+
+    .DateList-itemRight {
+      display: block;
+      float: left;
+      width: 65%;
+    }
+
+    .DateList-itemDate {
+      display: block;
+
+      font-size: 1rem;
+      font-weight: 500;
+      line-height: 1.25;
+      text-transform: uppercase;
+      text-align: right;
+      color: #f09300;
+
+      @media (min-width: 38em) {
+        font-size: 1.10rem;
+      }
+    }
+
+    .DateList-itemYear {
+      display: block;
+
+      font-size: 0.75rem;
+      line-height: 1;
+      text-align: right;
+      color: #aaa;
+    }
+
+    .DateList-itemTitle {
+      display: block;
+
+      line-height: 1.25;
+      color: #333;
+
+      @media (min-width: 38em) {
+        font-size: 1.10rem;
+      }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+

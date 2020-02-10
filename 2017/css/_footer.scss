@@ -1,0 +1,175 @@
+.Footer {
+  position: relative;
+  margin-top: 1rem;
+  background: lighten(#e5e5e5, 2%);
+
+  @media (min-width: 38em) {
+    border-top: 4px solid #dadada;
+  }
+
+  @media (min-width: 58em) {
+    margin-top: 4rem;
+  }
+
+  p {
+    font-size: 0.875rem;
+    color: darken(grey, 5%);
+
+    @media (min-width: 58em) {
+      padding-right: 2rem;
+    }
+  }
+
+  a {
+    color: grey;
+    border-bottom: 1px solid lightgrey;
+
+    &:hover {
+      color: blue;
+    }
+  }
+
+  span {
+    display: block;
+  }
+}
+
+  .Footer-wrapUp {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1265px;
+
+    @media (min-width: 20em) {
+      width: 85%;
+    }
+
+    @media (min-width: 38em) {
+      width: 75%;
+    }
+
+    @media (min-width: 58em) {
+      width: 80%;
+    }
+
+    &:after {
+      content: '';
+      display: block;
+      clear: both;
+    }
+  }
+
+  .Footer-first {
+    //padding-bottom: 1rem;
+
+    @media (min-width: 58em) {
+      padding-bottom: 1rem;
+      width: 40%;
+      float: left;
+    }
+  }
+
+  .Footer-second {
+    //padding-bottom: 1rem;
+
+    @media (min-width: 58em) {
+      padding-bottom: 1rem;
+      width: 40%;
+      float: left;
+    }
+  }
+
+  .Footer-third {
+    //padding-bottom: 1rem;
+
+    @media (min-width: 58em) {
+      padding-bottom: 1rem;
+      width: 20%;
+      float: left;
+    }
+  }
+
+  .Footer-title {
+    margin: 0;
+    padding-top: 2rem;
+    padding-right: 0;
+
+    font-size: 0.95rem;
+    line-height: 1.25;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #333;
+  }
+
+  .Footer-copyrights {
+    position: relative;
+    margin: 0 auto;
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    width: 90%;
+    max-width: 1265px;
+
+    font-size: 0.80rem;
+    line-height: 1.25;
+    color: lighten(grey, 25%);
+    border-top: 1px solid lightgrey;
+
+    @media (min-width: 20em) {
+      width: 85%;
+    }
+
+    @media (min-width: 38em) {
+      width: 75%;
+    }
+
+    @media (min-width: 58em) {
+      width: 80%;
+    }
+  }
+
+  .FooterDude {
+    position: absolute;
+    display: none;
+    top: -88px;
+    right: 7.5%;
+    width: 90px;
+    height: 90px;
+    //background: blue;
+
+    @media (min-width: 38em) {
+      display: block; // revert back once done with speakers
+    }
+
+    @media (min-width: 48em) {
+      top: -98px;
+      width: 100px;
+      height: 100px;
+    }
+
+    @media (min-width: 58em) {
+      top: -116px;
+      right: 20%;
+      width: 120px;
+      height: 120px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

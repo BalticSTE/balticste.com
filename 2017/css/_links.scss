@@ -1,0 +1,15 @@
+a {
+  color: darken(#F6CA4D, 15%);
+  text-decoration: none;
+  outline: none;
+
+  &:active,
+  &:hover {
+    color: blue;
+  }
+
+  &:focus {
+    color: #fff!important;
+    background: blue!important;
+  }
+}

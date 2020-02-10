@@ -1,0 +1,156 @@
+.PhotoGrid {
+  position: relative;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+
+  margin-bottom: 2rem;
+
+  max-width: 1265px;
+  height: 240px;
+
+  @media (min-width: 20em) {
+    height: 340px;
+  }
+
+  @media (min-width: 38em) {
+    margin: 0 auto;
+    width: 95%;
+    height: 360px;
+  }
+
+  @media (min-width: 48em) {
+    margin: 0 auto;
+    width: 90%;
+    height: 400px;
+  }
+
+  @media (min-width: 58em) {
+    margin: 0 auto;
+    width: 80%;
+    height: 520px;
+  }
+}
+
+  .PhotoGrid-wrap {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -ms-flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+
+    min-height: 240px;
+
+    @media (min-width: 20em) {
+      min-height: 340px;
+    }
+
+    @media (min-width: 38em) {
+      min-height: 360px;
+    }
+
+    @media (min-width: 48em) {
+      min-height: 400px;
+    }
+
+    @media (min-width: 58em) {
+      min-height: 520px;
+    }
+  }
+
+    .PhotoGrid-side {
+      -ms-flex: 1;
+      -webkit-flex: 1;
+      flex: 1;
+
+      background-image: url(../images/front-img-5.jpg);
+      background-position: 50% 0;
+      background-size: cover;
+
+      @media (min-width: 38em) {
+        -ms-flex: 1;
+        -webkit-flex: 1;
+        flex: 1;
+      }
+
+      @media (min-width: 48em) {
+        -ms-flex: 1;
+        -webkit-flex: 1;
+        flex: 1;
+      }
+    }
+
+    .PhotoGrid-vertical {
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+
+      -ms-flex-direction: column;
+      -webkit-flex-direction: column;
+      flex-direction: column;
+
+      -ms-flex: 1 1 0.000000001px;
+      -webkit-flex: 1;
+      flex: 1;
+      -webkit-flex-basis: 0.000000001px;
+      flex-basis: 0.000000001px;
+    }
+
+    .go-out {
+
+      @media (max-width: 48em) {
+        display: none;
+      }
+    }
+
+
+      .PhotoGrid-imageOne {
+        background-image: url(../images/front-img-4.jpg);
+        background-position: center;
+        background-size: cover;
+      }
+
+      .PhotoGrid-imageTwo {
+        background-image: url(../images/front-img-7.jpg);
+        background-position: center;
+        background-size: cover;
+      }
+
+      .PhotoGrid-imageThree {
+        background-image: url(../images/front-img-1.jpg);
+        background-position: center;
+        background-size: cover;
+      }
+
+      .PhotoGrid-imageFour {
+        background-image: url(../images/front-img-2.jpg);
+        background-position: center;
+        background-size: cover;
+      }
+
+      .PhotoGrid-imageOne,
+      .PhotoGrid-imageTwo,
+      .PhotoGrid-imageThree,
+      .PhotoGrid-imageFour {
+        position: relative;
+        -ms-flex: 1 1 0.000000001px;
+        -webkit-flex: 1;
+        flex: 1;
+        -webkit-flex-basis: 0.000000001px;
+        flex-basis: 0.000000001px;
+      }
+
+
+
+
+
+
+
+
+

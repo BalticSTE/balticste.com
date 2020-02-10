@@ -1,0 +1,225 @@
+.WrapWrapWrap {
+  margin: 0 auto;
+  max-width: 1265px;
+  width: 90%;
+
+  @media (min-width: 20em) {
+    width: 85%;
+  }
+
+  @media (min-width: 38em) {
+    width: 75%;
+  }
+
+  @media (min-width: 58em) {
+    width: 80%;
+  }
+}
+
+.PlenarySpeakers {
+  position: relative;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  margin: -0.5em;
+}
+
+  .PlenarySpeakers-title {
+    margin: 0 auto;
+
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+
+    display: block;
+    width: 90%;
+    max-width: 1265px;
+
+    font-size: 1.15rem;
+    font-weight: 500;
+    color: #333;
+
+    @media (min-width: 20em) {
+      width: 85%;
+    }
+
+    @media (min-width: 38em) {
+      width: 75%;
+      font-size: 1.25rem;
+    }
+
+    @media (min-width: 58em) {
+      width: 80%;
+      font-size: 1.45rem;
+    }
+  }
+
+  .PlenarySpeakers-flag {
+    position: absolute;
+    display: none;
+    top: 0.75rem;
+    left: 0.75rem;
+    width: 1.35rem;
+    opacity: 0.70;
+
+    @media (min-width: 48em) {
+      display: block;
+    }
+
+    @media (min-width: 64em) {
+      width: 1.6rem;
+    }
+  }
+
+  .PlenarySpeakers-person {
+    position: relative;
+
+    margin: 0.75em;
+
+    padding-top: 0.75rem;
+    padding-bottom: 0;
+
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+
+    width: 100%; // take a look here my friend
+    min-height: 260px;
+
+    text-align: center;
+    background: #fafafa;
+    border-radius: 4px;
+
+    @media (min-width: 28em) {
+      flex: 0 1 15em;
+    }
+
+    @media (min-width: 48em) {
+      text-align: right;
+    }
+
+    @media (min-width: 58em) {
+      padding-top: 0.75rem;
+      padding-bottom: 0;
+
+      padding-right: 0.75rem;
+      padding-left: 0.75rem;
+    }
+
+    img {
+      max-width: 50%;
+      border-radius: 100%;
+
+      @media (min-width: 48em) {
+        max-width: 70%;
+      }
+
+       @media (min-width: 58em) {
+        max-width: 65%;
+      }
+
+       @media (min-width: 64em) {
+        max-width: 60%;
+      }
+    }
+  }
+
+    .PlenarySpeakers-personWrap {
+      position: absolute;
+      display: block;
+      left: 0;
+      bottom: 0;
+      right: 0;
+
+      padding-right: 0.75rem;
+      padding-left: 0.75rem;
+      padding-bottom: 0.75rem;
+
+      width: 100%;
+    }
+
+    .PlenarySpeakers-personName {
+      margin: 0;
+
+      font-size: 0.875rem;
+      font-weight: 600;
+      letter-spacing: -0.010rem;
+      display: block;
+      line-height: 1.15;
+      text-align: left;
+      color: #333;
+
+      @media (min-width: 64em) {
+        font-size: 0.95rem;
+      }
+
+      span {
+        font-size: 0.90rem;
+        text-transform: none;
+        color: lighten(#333, 2.5%);
+      }
+    }
+
+    .PlenarySpeakers-personPlace {
+      margin: 0;
+      padding-top: 0.5rem;
+      display: block;
+
+      font-size: 0.725rem;
+      font-weight: 500;
+      line-height: 1.15;
+      text-align: left;
+      letter-spacing: 0.015rem;
+      color: lighten(#737373, 5%);
+
+      @media (min-width: 58em) {
+        font-size: 0.8rem;
+      }
+    }
+
+  .PlenarySpeakers-notice {
+    margin: 0 auto;
+
+    padding-top: 1.5rem;
+
+    display: block;
+    width: 90%;
+    max-width: 1265px;
+
+    font-size: 0.825rem;
+    font-weight: 500;
+    text-align: right;
+    letter-spacing: 0.01rem;
+    color: lighten(#333, 60%);
+
+    @media (min-width: 20em) {
+      width: 85%;
+    }
+
+    @media (min-width: 38em) {
+      width: 75%;
+    }
+
+    @media (min-width: 58em) {
+      width: 80%;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

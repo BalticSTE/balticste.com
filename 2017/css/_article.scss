@@ -1,0 +1,126 @@
+.Article {
+  position: relative;
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1265px;
+
+  @media (min-width: 20em) {
+    width: 85%;
+  }
+
+  @media (min-width: 38em) {
+    width: 75%;
+  }
+
+  @media (min-width: 58em) {
+    width: 80%;
+  }
+
+  &:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  p {
+    font-size: 0.95rem;
+    text-align: justify;
+    color: grey;
+
+    @media (min-width: 38em) {
+      font-size: 1rem;
+    }
+
+    @media (min-width: 58em) {
+      width: 85%;
+    }
+  }
+}
+
+  .Article-column {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #e5e5e5;
+
+    @media (min-width: 58em) {
+      padding: 0;
+      width: 50%;
+      float: left;
+      border-bottom: none;
+    }
+
+    &:last-of-type {
+      border-bottom: none;
+    }
+  }
+
+  .Article-title {
+    margin: 0;
+    padding-top: 2rem;
+    padding-right: 0;
+
+    font-size: 1.15rem;
+    line-height: 1.25;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #333;
+
+    @media (min-width: 38em) {
+      font-size: 1.25rem;
+    }
+
+    @media (min-width: 58em) {
+      padding-top: 4rem;
+      padding-right: 2rem;
+
+      font-size: 1.45rem;
+    }
+
+    sup {
+      vertical-align: super;
+      font-size: small;
+    }
+  }
+
+  .Article-subTitle {
+    margin: 0;
+    padding-top: 1rem;
+    padding-right: 0;
+
+    font-size: 1rem;
+    line-height: 1.25;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-indent: -0.450rem;
+    color: lighten(#333, 10%);
+
+    @media (min-width: 38em) {
+      font-size: 1.10rem;
+    }
+
+    @media (min-width: 58em) {
+      padding-right: 4rem;
+
+      font-size: 1.25rem;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

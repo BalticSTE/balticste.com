@@ -1,0 +1,65 @@
+.Table {
+  margin-top: 2.75rem;
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  width: 100%;
+  border: 1px solid #eee;
+}
+
+  .Table thead {
+    background: #fafafa;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .Table td,
+  .Table th {
+    margin: 0;
+    border-left: 1px solid #eee;
+    border-width: 0 0 0 1px;
+    text-align: center;
+    overflow: visible;
+  }
+
+  .Table th {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.015rem;
+
+    span {
+      display: block;
+
+      font-size: 0.675rem;
+      color: lighten(#000, 45%);
+    }
+  }
+
+  .Table td {
+    font-size: 0.85rem;
+    line-height: 1;
+  }
+
+  .Table td,
+  .Table th {
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
+
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  .Table td:first-child,
+  .Table th:first-child {
+    border-left-width: 0;
+  }
+
+
+
+
+
+
+
+
+
+
