@@ -312,7 +312,6 @@ main {
 
 .Article p {
   font-size: 17px;
-  text-align: justify;
 }
 
 @media (min-width: 38em) {
@@ -323,8 +322,13 @@ main {
 
 @media (min-width: 58em) {
   .Article p {
-    width: 85%;
+    width: 90%;
   }
+}
+
+.Article p sup {
+  vertical-align: super;
+  font-size: small;
 }
 
 .Article li {
