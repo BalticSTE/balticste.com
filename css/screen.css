@@ -896,7 +896,7 @@ main {
 }
 
 .RegisterTable th {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .RegisterTable th span {
@@ -924,7 +924,8 @@ main {
 
 .RegisterTable-small,
 .RegisterTable-small th {
-  font-size: 24px;
+  font-size: 22px;
+  line-height: 1;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
 }
