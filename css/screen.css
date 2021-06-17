@@ -647,12 +647,12 @@ main {
 }
 
 .File img {
-  height: 3rem;
+  height: 2.4rem;
 }
 
 @media (min-width: 38em) {
   .File img {
-    height: 3rem;
+    height: 2.6rem;
   }
 }
 
