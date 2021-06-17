@@ -606,15 +606,15 @@ main {
   position: relative;
   display: block;
   margin-top: 2rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: .8rem;
+  padding-bottom: .8rem;
   padding-right: 0.75rem;
   padding-left: 0.75rem;
   width: 100%;
   background: #ffffff;
-  border: 2px solid #ff0000;
+  border: 1px solid #ff0000;
   border-radius: 6px;
-  transition: transform 0.15s ease;
+  transition: transform 200ms ease;
 }
 
 .File:after {
@@ -633,8 +633,8 @@ main {
 
 @media (min-width: 38em) {
   .File {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: .8rem;
+    padding-bottom: .8rem;
     padding-right: 1rem;
     padding-left: 1rem;
   }
@@ -647,12 +647,12 @@ main {
 }
 
 .File img {
-  height: 2.4rem;
+  height: 2rem;
 }
 
 @media (min-width: 38em) {
   .File img {
-    height: 2.6rem;
+    height: 2.2rem;
   }
 }
 
@@ -667,15 +667,9 @@ main {
   color: #24292e;
 }
 
-@media (min-width: 38em) {
-  .File-title {
-    font-size: 20px;
-  }
-}
-
 .File-title span {
   display: block;
-  font-size: 17px;
+  font-size: 16px;
   color: #586069;
 }
 
