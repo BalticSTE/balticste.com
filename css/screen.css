@@ -231,7 +231,7 @@ nav>div:after {
 }
 
 /* Register button */
-nav a:last-of-type {
+/*nav a:last-of-type {
   padding: 12px 14px;
   font-weight: 600;
   text-decoration: none;
@@ -250,7 +250,7 @@ nav a:last-of-type:hover {
 
 nav a:last-of-type:focus {
   box-shadow: 0 0 0 0.2em rgba(3, 102, 214, 0.4);
-}
+}*/
 
 .is-active:after {
   content: '';
