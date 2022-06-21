@@ -252,29 +252,8 @@ nav a:last-of-type:focus {
   box-shadow: 0 0 0 0.2em rgba(3, 102, 214, 0.4);
 }*/
 
-.is-active:after {
-  content: '';
-  position: absolute;
-  display: block;
-  width: 50%;
-  height: 2px;
-  left: 50%;
-  margin: 5px 0 0 -25%;
-  background-color: #0366d6;
-}
-
-@media (min-width: 20em) {
-  .is-active:after {
-    content: '';
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 2px;
-    left: 0;
-    left: initial;
-    margin: 5px 0 0 0;
-    padding: 0 0;
-  }
+.is-active {
+  text-decoration: underline;
 }
 
 .go-out {
@@ -1408,11 +1387,6 @@ main {
   display: block;
 }
 
-/**
- * Remove footer wraps and all other ones.
- * Replace all wraps with utility classes.
- */
-
 .Footer-wrapUp {
   margin: 0 auto;
   width: 95%;
@@ -1452,6 +1426,22 @@ main {
     padding-bottom: 1rem;
     width: 20%;
     float: left;
+  }
+}
+
+.Footer-blocks {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1265px;
+}
+
+@media (min-width: 768px) {
+  .Footer-blocks {
+    grid-template-columns: repeat(4, 1fr);
+    width: 95%;
   }
 }
 
