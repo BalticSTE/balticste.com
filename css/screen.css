@@ -1443,6 +1443,34 @@ main {
     grid-template-columns: repeat(4, 1fr);
     width: 95%;
   }
+  
+  .Footer-blocks--two {
+    grid-template-columns: repeat(2, 1fr);
+    width: 95%;
+  }
+}
+
+.Footer-blocks > .Footer-block > div {
+  margin-top: 1.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  
+  align-items: flex-start;
+}
+
+.Footer-blocks > .Footer-block > div > div {
+  padding: .75rem;
+  
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+.Footer-blocks > .Footer-block > div > div span {
+  margin-bottom: 1rem;
+  
+  font-size: 14px;
+  line-height: 1.25;
 }
 
 .Footer-title {
