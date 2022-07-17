@@ -231,16 +231,28 @@ nav>div:after {
 }
 
 /* Register button */
-/*nav a:last-of-type {
+nav a:last-of-type {
   padding: 12px 14px;
   font-weight: 600;
   text-decoration: none;
   color: #fff;
   white-space: nowrap;
   vertical-align: middle;
+  text-align: center;
   cursor: pointer;
   background-color: #0366d6;
   border-radius: 6px;
+  
+  pointer-events: none;
+}
+
+nav a:last-of-type::after {
+  content: ' Opens 15/SEP 2022';
+  display: block;
+  margin-top: 7px;
+  
+  font-size: 85%;
+  opacity: .9;
 }
 
 nav a:last-of-type:hover {
@@ -250,7 +262,7 @@ nav a:last-of-type:hover {
 
 nav a:last-of-type:focus {
   box-shadow: 0 0 0 0.2em rgba(3, 102, 214, 0.4);
-}*/
+}
 
 .is-active {
   text-decoration: underline;
