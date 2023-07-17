@@ -242,6 +242,9 @@ nav a:last-of-type {
   cursor: pointer;
   background-color: #0366d6;
   border-radius: 6px;
+
+  /* disable registration */
+  display: none;
 }
 
 nav a:last-of-type:hover {
