@@ -516,7 +516,7 @@ main {
 }
 
 .DateList-item:not(:last-of-type) {
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid rgb(38 38 35 / 25%);
 }
 
 .DateList-itemLeft {
