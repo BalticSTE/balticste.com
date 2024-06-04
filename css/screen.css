@@ -265,7 +265,7 @@ nav a:last-of-type:focus {
 }
 
 .gallery-item {
-  background-color: olivedrab;
+  background-color: #ecece7;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: .25rem;
