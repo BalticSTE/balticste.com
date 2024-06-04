@@ -75,7 +75,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 6rem;
+  gap: 4.5rem;
 }
 
 @media (min-width: 20em) {
@@ -261,7 +261,7 @@ nav a:last-of-type:focus {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: .5rem;
-  width: 32rem;
+  width: 34rem;
 }
 
 .gallery-item {
@@ -276,21 +276,23 @@ nav a:last-of-type:focus {
 }
 
 .gallery-item:nth-of-type(1) {
-  background-image: url(../images/front-img-9.jpg);
+  background-image: url(../images/gallery-1.jpg);
+  background-position: 50% 100%;
   transform: translate(-10px, -10px);
 }
 
 .gallery-item:nth-of-type(2) {
-  background-image: url(../images/front-img-8.jpg);
-  background-position: 50% 50%;
+  background-image: url(../images/gallery-2.jpg);
 }
 
 .gallery-item:nth-of-type(3) {
   background-image: url(../images/front-img-3.jpg);
+  background-position: 50% 50%;
 }
 
 .gallery-item:nth-of-type(4) {
-  background-image: url(../images/front-img-7.jpg);
+  background-image: url(../images/gallery-4.jpg);
+  background-position: 50% 50%;
   transform: translate(10px, 10px);
 }
 
