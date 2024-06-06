@@ -442,6 +442,10 @@ main {
   transition: transform 150ms;
 }
 
+.File + .File {
+  margin-top: 1rem;
+}
+
 .File:after {
   display: none;
 }
@@ -458,16 +462,16 @@ main {
 
 @media (min-width: 38em) {
   .File {
-    padding-top: 1.125rem;
-    padding-bottom: 1.125rem;
-    padding-right: 1rem;
-    padding-left: 1rem;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    padding-right: 1.125rem;
+    padding-left: 1.125rem;
   }
 }
 
 @media (min-width: 58em) {
   .File {
-    margin-top: 4.25rem;
+    margin-top: 2.5rem;
   }
 }
 
