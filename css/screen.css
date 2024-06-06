@@ -1277,6 +1277,7 @@ main {
 }
 
 .Footer-blocks--two {
+  grid-template-columns: 1fr;
   gap: 2rem;
 }
 
@@ -1295,10 +1296,23 @@ main {
 .Footer-blocks > .Footer-block > div {
   margin-top: 1.5rem;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 1rem;
+  grid-template-columns: 1fr;
+  gap: .75rem;
   
   align-items: flex-start;
+}
+
+@media (min-width: 480px) {
+  .Footer-blocks > .Footer-block > div {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 640px) {
+  .Footer-blocks > .Footer-block > div {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+  }
 }
 
 .Footer-blocks > .Footer-block > div > div {
