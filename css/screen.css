@@ -61,13 +61,14 @@ img {
 }
 
 a {
-  color: #0366d6;
+  border-bottom: 1px solid rgb(0 84 118 / 30%);
+  color: #005476;
   text-decoration: none;
   outline: none;
 }
 
 a:hover {
-  text-decoration: underline;
+  border-color: rgb(0 84 118 / 100%);
 }
 
 header {
