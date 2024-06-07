@@ -31,7 +31,7 @@ html {
 html,
 body {
   background: #fff;
-  color: #000;
+  color: #0b0c0c;
   margin: 0;
   padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, "helvetica neue", helvetica, arial, sans-serif;
@@ -134,8 +134,7 @@ header h1 {
   font-size: 18px;
   line-height: 1;
   font-weight: normal;
-  letter-spacing: -.5px;
-  color: #262623;
+  letter-spacing: -0.007em;
 }
 
 @media (min-width: 768px) {
