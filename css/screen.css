@@ -68,6 +68,12 @@ a:hover {
   border-color: rgb(54 46 135 / 100%);
 }
 
+a:focus-visible {
+  outline-offset: 4px;
+  outline: 4px dashed #fd0;
+  transition: outline-offset 150ms ease;
+}
+
 header {
   position: relative;
   display: flex;
