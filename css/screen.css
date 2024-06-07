@@ -224,7 +224,11 @@ nav a:last-of-type:focus {
 }
 
 .is-active {
-  border-color: rgb(0 84 118 / 100%);
+  text-decoration-thickness: max(3px, .1875rem, .12em);
+  -webkit-text-decoration-skip-ink: none;
+  text-decoration-skip-ink: none;
+  -webkit-text-decoration-skip: none;
+  text-decoration-skip: none;
 }
 
 .go-out {
