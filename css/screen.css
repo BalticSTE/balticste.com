@@ -587,70 +587,69 @@ main {
 .CommList {
   list-style: none;
   padding: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .CommList-item {
   list-style: none;
-  display: block;
-  clear: both;
-  margin-top: 2rem;
+  display: flex;
+  align-items: start;
+  gap: .75rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  padding-right: 0.8rem;
-  padding-left: 1rem;
-  background: #fff;
-  border: 1px #e1e4e8 solid;
-  border-radius: 6px;
+  padding-right: 1rem;
+  padding-left: 0;
 }
 
-.CommList-item:after {
-  content: '';
-  display: block;
-  clear: both;
+.CommList-item:not(:last-of-type) {
+  border-bottom: 1px solid #dfdff1;
 }
 
 .CommList-itemLeft {
+  flex-shrink: 0;
   display: block;
-  width: 2.6rem;
-  float: left;
   border-radius: 100%;
 }
 
 .CommList-itemLeft img {
+  border-radius: .25rem;
   display: block;
-  margin-top: -12px;
-  margin-left: -24px;
-  opacity: 0.9;
-  border: 1px #e1e4e8 solid;
-  border-radius: 6px;
-  transform: rotateZ(-5deg);
+  width: 1.375rem;
+  height: 1.375rem;
 }
 
 .CommList-itemRight {
   display: block;
-  float: left;
-  width: 75%;
 }
 
 .CommList-itemName {
   display: block;
-  font-size: 20px;
-  font-weight: 600;
-  line-height: 1.2;
-}
-
-@media (min-width: 38em) {
-  .CommList-itemName {
-    font-size: 22px;
-  }
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.25;
 }
 
 .CommList-itemName > span {
   display: block;
-  padding-top: 0.25rem;
-  font-size: 17px;
-  font-weight: 500;
-  color: #586069;
+  margin-top: .125rem;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+@media (min-width: 768px) {
+  .CommList-item {
+    gap: .875rem;
+  }
+
+  .CommList-itemLeft img {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  .CommList-itemName {
+    font-size: 22px;
+  }
 }
 
 .Table {
