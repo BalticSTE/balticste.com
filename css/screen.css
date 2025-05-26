@@ -198,6 +198,8 @@ nav a {
 /* Register button */
 
 nav a:last-of-type {
+  display: none!important;
+  
   padding: 8px 16px;
   font-weight: 500;
   text-decoration: none;
