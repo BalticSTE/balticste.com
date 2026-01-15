@@ -49,7 +49,7 @@ body {
 
 b,
 strong {
-  font-weight: bold;
+  font-weight: 600;
 }
 
 img {
@@ -384,8 +384,7 @@ main {
   padding-right: 0;
   font-size: 22px;
   line-height: 1.25;
-  letter-spacing: -0.005em;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 @media (min-width: 38em) {
@@ -546,10 +545,10 @@ main {
 }
 
 .DateList-itemDate {
-  color: #e50180;
+  color: #04a1e5;
   display: block;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 600;
   line-height: 1.25;
   text-transform: uppercase;
   text-align: right;
@@ -1019,6 +1018,13 @@ main {
   text-align: center;
 }
 
+.PlenarySpeakers-title > span {
+  display: block;
+  font-size: 80%;
+  font-weight: 400;
+  opacity: .6;
+}
+
 @media (min-width: 768px) {
   .PlenarySpeakers-title {
     padding-top: 8rem;
@@ -1154,8 +1160,9 @@ main {
 
 .Footer h3 {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   font-size: 20px;
+  font-weight: 500;
   line-height: 1.25;
   color: #fff;
 }
@@ -1214,13 +1221,13 @@ main {
 .Footer-container .Footer-block:nth-of-type(1) {
   display: flex;
   flex-direction: column;
-  gap: 2.5rem;
+  gap: 2.75rem;
 }
 
 .Footer-container .Footer-block:nth-of-type(2) > div {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 1.25rem;
 }
 
 .Footer-container .Footer-block:nth-of-type(2) > div div {
@@ -1254,7 +1261,7 @@ main {
 
   .Footer-container .Footer-block:nth-of-type(3) > div {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(6, 1fr);
   }
 }
 
